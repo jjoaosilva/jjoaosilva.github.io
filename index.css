@@ -3,8 +3,27 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: 'Palatino Linotype', serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #343a40; }
+ 
+ h1 {
+   font-size: 6rem;
+   line-height: 5.5rem; }
+ 
+ h2 {
+   font-size: 3.5rem; }
+
  body {
-    font-family: 'Open Sans', serif;
+    font-family: 'Palatino Linotype', serif;
     padding-top: 200px;
     color: #868e96; }
   
@@ -16,7 +35,7 @@
     }
   
     h1,  h2,  h3,  h4,  h5,  h6 {
-        font-family: 'Saira Extra Condensed', serif;
+        font-family: 'Trebuchet MS', serif;
         font-weight: 700;
         text-transform: uppercase;
         color: #343a40; 

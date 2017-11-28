@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+ #teste {
+    display: inline !important;
+}
+
  h1,
  h2,
  h3,
@@ -107,3 +111,4 @@
     color: #FFFFF0; }
     a:hover, a:focus, a:active {
       color: #6495ED; }
+

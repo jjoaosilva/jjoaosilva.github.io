@@ -30,8 +30,10 @@
   
     @media (min-width: 992px) {
         body {
-            padding-top: 10;
-            padding-left: 17rem; 
+            padding-top: 30vh;
+            padding-left: 17rem;
+            padding-right: 17rem; 
+            padding-bottom: 10rem;
         } 
     }
   
@@ -69,21 +71,21 @@
         }
     }
   
-  section.resume-section {
+  section.textos {
     border-bottom: 1px solid #dee2e6;
     padding-top: 5rem !important;
     padding-bottom: 5rem !important; }
-    section.resume-section .resume-item .resume-date {
+    section.textos .item  {
       min-width: none; }
   
   @media (min-width: 768px) {
-    section.resume-section {
-      min-height: 100vh; }
-      section.resume-section .resume-item .resume-date {
+    section.textos {
+      min-height: 10vh; }
+      section.textos .item {
         min-width: 18rem; } }
   
   @media (min-width: 992px) {
-    section.resume-section {
+    section.textos{
       padding-top: 3rem !important;
       padding-bottom: 3rem !important; } }
   

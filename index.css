@@ -1,9 +1,51 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-.textos{
+  main {
+    flex: 1 0 auto;
+  }
+  
+ .textos{
     margin-left: 5%;
     margin-right: 5%;
+    text-align: justify; 
 }
-.item{
+
+.DATA{
+    COLOR: #78909c;
+}
+
+h3{
+    COLOR: #78909c;
+}
+
+h2{
+    COLOR: #607d8b
+}
+p{
+    font-size: 25px;
+}
+/* .item{
     margin-left: 6%;
     margin-right: 6%;
+} */
+.brand-logo{
+    margin-left: 10%;
+}
+
+.hide-on-med-and-down{
+    margin-right: 10%;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+html {
+    position: relative;
+    min-height: 100%;
 }

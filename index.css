@@ -8,7 +8,11 @@ body {
     flex: 1 0 auto;
   }
   
- .textos{
+.Nome{
+    font-family: 'Bungee', cursive;
+}
+
+.textos{
     margin-left: 5%;
     margin-right: 5%;
     text-align: justify; 
@@ -20,13 +24,19 @@ body {
 }
 
 h3{
+    font-family: 'Raleway', sans-serif;
     COLOR: #78909c;
 }
 
-h2, .Iconhobbies{
-    COLOR: #607d8b
+.font{
+    font-family: 'Bungee', cursive;
+}
+h2, .Iconhobbies, h5{
+    font-family: 'Bungee', cursive; 
+    COLOR: #607d8b;
 }
 p{
+    font-family: 'Raleway', sans-serif;
     font-size: 25px;
 }
 /* .item{
@@ -52,6 +62,7 @@ html {
 }
 
 .titulosub{
+    font-family: 'Raleway', sans-serif;
     font-size: 25px;
 }
 
@@ -62,4 +73,16 @@ html {
 
 .collection{
     padding: 3%;
+}
+
+.iconeNav{
+    font-size:35px;
+    margin-top: 100%;
+}
+
+.subtitulo{
+    font-family: 'Bungee', cursive; 
+    COLOR: #78909c;
+    font-size: 20px;
+    margin-top: -5%;
 }

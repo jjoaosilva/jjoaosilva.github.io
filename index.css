@@ -16,13 +16,14 @@ body {
 
 .DATA{
     COLOR: #78909c;
+    font-size: 20px;
 }
 
 h3{
     COLOR: #78909c;
 }
 
-h2{
+h2, .Iconhobbies{
     COLOR: #607d8b
 }
 p{
@@ -48,4 +49,17 @@ p{
 html {
     position: relative;
     min-height: 100%;
+}
+
+.titulosub{
+    font-size: 25px;
+}
+
+.IconData{
+    COLOR: #78909c;
+    margin-right: 0px;
+}
+
+.collection{
+    padding: 3%;
 }

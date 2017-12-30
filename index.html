@@ -5,11 +5,7 @@
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
           <!--Import materialize.css-->
           <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-          <script>
-              $(function(){
-                  $(".button-collapse").sideNav();
-              });
-          </script>
+
           <link type="text/css" rel="stylesheet" href="index.css"/>
           <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
           <link href="https://fonts.googleapis.com/css?family=Bungee|Raleway" rel="stylesheet">
@@ -28,7 +24,7 @@
         <nav class="nav-extended blue-grey lighten-1">
           <div class="nav-wrapper">
             <a href="#" class="brand-logo itsMe">It's Me</a>
-            <a href="#" data-activates="menu-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="mailto:josejoaosilva.n@gmail.com"><i class="devicon-google-plain iconeNav"></i></a></li>
               <li><a href="https://www.facebook.com/jose.silva.710667"><i class="devicon-facebook-plain iconeNav"></i></a></li>
@@ -42,11 +38,11 @@
               <li class="tab"><a class = "font" href="#experiencias">Experiências</a></li>
               <li class="tab"><a class = "font" href="#interesses">Hobbies</a></li>
             </ul>
-            <ul class="side-nav" id="menu-mobile">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#experiencias">Experiências</a></li>
-                <li><a href="#interesses">Hobbies</a></li>
+            <ul class="side-nav blue-grey lighten-1" id="mobile-demo">
+              <li><a class = "font" href="#sobre">Sobre</a></li>
+              <li><a class = "font" href="#formacao">Formação</a></li>
+              <li><a class = "font" href="#experiencias">Experiências</a></li>
+              <li><a class = "font" href="#interesses">Hobbies</a></li>
            </ul>
           </div>
         </nav> 
@@ -272,6 +268,12 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>
+        $( document ).ready(function(){
+          $(".button-collapse").sideNav();
+        });
+       </script>
   </body>
 
 </html>

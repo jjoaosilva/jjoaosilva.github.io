@@ -79,9 +79,15 @@ html {
     margin-top: 100%;
 }
 
-.subtitulo{
+ .subtitulo{
     font-family: 'Bungee', cursive; 
     COLOR: #78909c;
-    font-size: 20px;
-    margin-top: -5%;
+/*     font-size: 20px;*/
+    margin-top: -2%; 
+} 
+
+.img{
+    height: 200px;
+    width: 200px;
+    margin: 3% auto 3% auto;
 }
